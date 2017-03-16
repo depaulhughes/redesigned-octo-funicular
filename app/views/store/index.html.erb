@@ -19,7 +19,7 @@
         <td><%= image_tag(product.imageurl) %></td>
         <td><%= number_to_currency(product.price) %></td>
         <td><%= button_to 'Add to Cart', line_items_path(product_id: product) %></td>
-        <td><%= link_to 'Show', product , class:"btn  btn-success" %></td>
+        
         
       </tr>
     <% end %>
